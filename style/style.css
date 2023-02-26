@@ -1,0 +1,192 @@
+/* google font import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+}
+
+.nav-link{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    background: linear-gradient(94.75deg, #FFDE00 8.5%, #FFDE00 12.11%, #FFDE00 12.12%, #42F272 68.56%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* .nav-link::before{
+        content: "";
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        left: 0;
+        height: 5px;
+        border-radius: 2px;
+        background: linear-gradient(111.3deg, #9c27b0 9.6%, #00bcd4 93.6%);
+} */
+
+ul{
+    margin-right: 100px;
+}
+
+li{
+    padding: 20px 20px;
+}
+
+.intouch{
+    padding: 10px 20px;
+    border: none;
+    animation-name: backgroundColorPalette;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@keyframes backgroundColorPalette {
+	0% {
+		background: #5721bb;
+	}
+	25% {
+		background: #275c3f;
+	}
+	50% {
+		background: #3b6f33;
+	}
+	75% {
+		background: #7f2e97;
+	}
+	100% {
+		background: #c66853;
+	}
+
+    50%{
+        background: #c05636;
+    }
+}
+
+.head-text{
+    padding-top: 10em;
+    padding-bottom: 10em;
+    background-image: url(/image/space.jpeg);
+}
+
+.col1{
+    color: white;
+}
+
+.col11, .tech{
+    background-image: url(/image/watergif.gif);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.col1 h3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.col1 h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 75px;
+}
+
+.button button{
+    padding: 15px 50px;
+    border: none;
+    animation-name: backgroundColorPalette;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.aboutus, .services{
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+.aboutus h4{
+    margin-bottom: 50px;
+    color: rgb(136, 136, 136);
+}
+
+.aboutus p{
+    color: rgb(217, 217, 217);
+}
+
+.services{
+    background-image: url(/image/stripe.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.services h5{
+    margin-bottom: 50px;
+    color: rgb(136, 136, 136);
+    text-decoration: underline;
+}
+
+.services p{
+    font-size: 20px;
+}
+
+.servbutton{
+   margin-top: 5em;
+}
+
+.tech{
+    font-weight: 700;
+}
+
+.animation{
+    position: relative;
+    height: 50vh;
+}
+
+.animation video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.portfolio{
+    background: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
