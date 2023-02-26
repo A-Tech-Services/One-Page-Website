@@ -183,6 +183,26 @@ li{
     background-size: cover;
 }
 
+#portfolio p{
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.colport h3{
+    padding-top: 80px;
+}
+
+.support img{
+    border-radius: 100em;
+}
+
+.support h5{
+    margin-bottom: 50px;
+    color: rgb(136, 136, 136);
+    text-decoration: underline;
+}
+
+
 
 
 
