@@ -25,16 +25,6 @@ body{
     background-clip: text;
 }
 
-/* .nav-link::before{
-        content: "";
-        position: absolute;
-        top: 100%;
-        width: 100%;
-        left: 0;
-        height: 5px;
-        border-radius: 2px;
-        background: linear-gradient(111.3deg, #9c27b0 9.6%, #00bcd4 93.6%);
-} */
 
 ul{
     margin-right: 100px;
@@ -202,11 +192,20 @@ li{
     text-decoration: underline;
 }
 
+.getintouch{
+    padding-top: 60px;
+}
 
+.getintouch p{
+    color: white;
+}
 
-
-
-
-
-
-
+.getintouch h2{
+    background: linear-gradient(94.75deg, #FFDE00 8.5%, #FFDE00 12.11%, #FFDE00 12.12%, #42F272 68.56%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 700;
+    margin-bottom: 60px;
+    border-bottom: 1px solid;
+}
