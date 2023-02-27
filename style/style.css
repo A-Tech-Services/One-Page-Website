@@ -129,6 +129,13 @@ li{
     color: rgb(217, 217, 217);
 }
 
+#about .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
 .services{
     background-image: url(/image/stripe.jpeg);
     background-repeat: no-repeat;
@@ -227,10 +234,18 @@ li{
         text-align: center;
     }
 
-    #id{
+    #about .row{
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-content: center;
-        border: 2px solid white;
+        text-align: center;
+        width: 100%;
     }
+
+    #about .about{
+        margin-top: 50px;
+    }
+
+
 }
