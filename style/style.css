@@ -115,12 +115,13 @@ li{
 
 }
 
-.aboutus, .services{
+#about, .services{
     padding-top: 10em;
     padding-bottom: 10em;
 }
 
 .aboutus h4{
+    margin-top: 50px;
     margin-bottom: 50px;
     color: rgb(136, 136, 136);
 }
@@ -129,12 +130,22 @@ li{
     color: rgb(217, 217, 217);
 }
 
-#about .row{
+#about{
+    color: white;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 50%;
+    justify-content: center;
+    
 }
+
+.mainrow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 80%;
+}
+
 
 .services{
     background-image: url(/image/stripe.jpeg);
@@ -199,6 +210,11 @@ li{
     text-decoration: underline;
 }
 
+.support .mainrow1{
+    display: flex;
+    justify-content: center;
+}
+
 .getintouch{
     padding-top: 60px;
 }
@@ -226,6 +242,9 @@ li{
 }
 
 @media all and (max-width: 1015px){
+    .navbar-toggler-icon{
+        background-color: white;
+    }
     .earth{
         display: none;
     }
@@ -234,17 +253,31 @@ li{
         text-align: center;
     }
 
-    #about .row{
+    #about .mainrow{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-content: center;
         text-align: center;
-        width: 100%;
+        width: 80%;
     }
 
     #about .about{
         margin-top: 50px;
+    }
+
+    #services, #portfolio, .support h5{
+        text-align: center;
+    }
+
+    .support .mainrow1{
+        flex-direction: column;
+    }
+
+    .port{
+        display: flex;
+        justify-content: center;
+        
     }
 
 
