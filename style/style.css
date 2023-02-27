@@ -209,3 +209,28 @@ li{
     margin-bottom: 60px;
     border-bottom: 1px solid;
 }
+
+.footer p{
+    background: linear-gradient(94.75deg, #FFDE00 8.5%, #FFDE00 12.11%, #FFDE00 12.12%, #42F272 68.56%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 700;
+}
+
+@media all and (max-width: 1015px){
+    .earth{
+        display: none;
+    }
+
+    .head-text{
+        text-align: center;
+    }
+
+    #id{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        border: 2px solid white;
+    }
+}
