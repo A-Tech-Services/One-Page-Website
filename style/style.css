@@ -249,12 +249,20 @@ li{
         background-color: white;
     }
     .earth{
-        display: none;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .earth img{
+        width: 15em;
     }
 
     .head-text{
         text-align: center;
     }
+
 
     #about .mainrow{
         display: flex;
